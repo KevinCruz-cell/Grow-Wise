@@ -10,6 +10,8 @@ class AuditoriaController extends Controller
 {
     public function index(Request $request)
     {
+
+
         $query = Auditoria::with('user');
 
         // Filtros

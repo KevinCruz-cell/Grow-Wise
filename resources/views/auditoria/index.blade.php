@@ -81,7 +81,7 @@
 
     <!-- SIDEBAR -->
     <div class="sidebar">
-        <h3>🌱 SmartGarden</h3>
+        <h3>SmartGarden</h3>
         <a href="#">Dashboard</a>
         <a href="#">Cultivos</a>
         <a href="#">Siembras</a>
@@ -91,7 +91,7 @@
     <!-- CONTENIDO -->
     <div class="main-content">
 
-        <h2 class="mb-4">📊 Bitácora del Sistema</h2>
+        <h2 class="mb-4">Bitácora del Sistema</h2>
 
         <div class="card-custom">
 
