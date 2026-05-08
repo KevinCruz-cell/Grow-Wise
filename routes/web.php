@@ -108,7 +108,8 @@ Route::middleware(['auth'])->group(function () {
     Route::put('/configuracion/perfil', [ConfiguracionController::class, 'updatePerfil'])->name('configuracion.perfil');
     Route::put('/configuracion/seguridad', [ConfiguracionController::class, 'updateSeguridad'])->name('configuracion.seguridad');
 
-    Route::get('/auditoria', [AuditoriaController::class, 'index'])
-        ->name('auditoria.index');
+    // routes/web.php
+    Route::get('/auditoria', [App\Http\Controllers\AuditoriaController::class, 'index'])->name('auditoria.index');
+    Route::get('/auditoria/{id}', [App\Http\Controllers\AuditoriaController::class, 'show']);
 
 });
