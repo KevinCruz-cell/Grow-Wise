@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Configuración - SmartGarden</title>
+    <title>Configuración - GrowWise</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -425,7 +425,7 @@
     <!-- Sidebar -->
     <div class="sidebar" data-aos="fade-right" data-aos-duration="1000">
         <div class="sidebar-header">
-            <h3><i class="fas fa-seedling"></i> SmartGarden</h3>
+            <h3><i class="fas fa-seedling"></i> GrowWise</h3>
             <p>Gestión Inteligente</p>
         </div>
         <div class="sidebar-menu">
@@ -499,7 +499,7 @@
                         @method('PUT')
                         <div class="form-group">
                             <label>Nombre del huerto</label>
-                            <input type="text" class="form-control" name="nombre_huerto" value="{{ $config['general']['nombre_huerto'] ?? 'Mi Huerto SmartGarden' }}">
+                            <input type="text" class="form-control" name="nombre_huerto" value="{{ $config['general']['nombre_huerto'] ?? 'Mi Huerto GrowWise' }}">
                         </div>
                         <div class="form-group">
                             <label>Ubicación</label>
