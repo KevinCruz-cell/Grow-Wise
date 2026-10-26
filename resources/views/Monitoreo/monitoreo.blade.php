@@ -819,7 +819,7 @@
                     <tbody>
                     @forelse($lecturasRecientes as $lectura)
                         <tr>
-                            <td>{{ $lectura->created_at->format('d/m/Y H:i') }}</td>
+                            <td>{{ \Carbon\Carbon::parse($lectura->created_at)->format('d/m/Y H:i') }}</td>
                             <td>{{ $lectura->modulo_nombre }}</td>
                             <td>{{ $lectura->sensor_nombre }}</td>
                             <td>{{ $lectura->tipo }}</td>

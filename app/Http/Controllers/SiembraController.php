@@ -50,6 +50,7 @@ class SiembraController extends Controller
         // Validar campos de siembra
         $request->validate([
             'cultivo_id' => 'required|exists:cultivos,id',
+            'modulo_id' => 'nullable|exists:modulos,id',
             'charola' => 'required|integer|min:1|max:10',
             'fecha_siembra' => 'required|date',
             'cantidad_semillas' => 'nullable|integer|min:1',
