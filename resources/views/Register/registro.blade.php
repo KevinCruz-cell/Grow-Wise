@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro - SmartGarden</title>
+    <title>Registro - GrowWise</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -221,7 +221,7 @@
     </div>
     <div class="register-header">
         <h2>Crear cuenta</h2>
-        <p>Únete a la familia SmartGarden y comienza a cultivar</p>
+        <p>Únete a la familia GrowWise y comienza a cultivar</p>
     </div>
 
     {{-- Mostrar errores de validación --}}

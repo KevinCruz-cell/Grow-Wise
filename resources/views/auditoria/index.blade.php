@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Bitácora - SmartGarden</title>
+    <title>Bitácora - GrowWise</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         :root {
@@ -106,7 +106,7 @@
 <div class="dashboard">
     <!-- SIDEBAR -->
     <div class="sidebar">
-        <h3>🌱 SmartGarden</h3>
+        <h3>🌱 GrowWise</h3>
         <a href="#">📊 Dashboard</a>
         <a href="#">🌿 Cultivos</a>
         <a href="#">🌾 Siembras</a>
