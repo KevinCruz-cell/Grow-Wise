@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SmartGarden - Cultivo Vertical Inteligente</title>
+    <title>GrowWise - Cultivo Vertical Inteligente</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -534,7 +534,7 @@
 <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
-            <i class="fas fa-seedling"></i> SmartGarden
+            <i class="fas fa-seedling"></i> GrowWise
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -578,7 +578,7 @@
 <section class="features-section" id="caracteristicas">
     <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
-            <h2 class="section-title">¿Por qué SmartGarden?</h2>
+            <h2 class="section-title">¿Por qué GrowWise?</h2>
             <p class="lead text-muted">Todo lo que necesitas para cultivar en casa de forma sencilla y eficiente</p>
         </div>
         <div class="row g-4">
@@ -650,7 +650,7 @@
     <div class="container">
         <div class="cta-content" data-aos="fade-up">
             <h2 class="cta-title">¿Listo para cultivar en casa?</h2>
-            <p class="cta-text">Únete a cientos de familias que ya disfrutan de hortalizas frescas, cultivadas por ellos mismos con la ayuda de SmartGarden.</p>
+            <p class="cta-text">Únete a cientos de familias que ya disfrutan de hortalizas frescas, cultivadas por ellos mismos con la ayuda de GrowWise.</p>
             <a href="{{route('register')}}" class="btn cta-button">Comenzar ahora <i class="fas fa-rocket ms-2"></i></a>
         </div>
     </div>
@@ -661,7 +661,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 mb-4">
-                <h5>SmartGarden</h5>
+                <h5>GrowWise</h5>
                 <p>Transformando hogares en huertos urbanos con tecnología accesible y sostenible.</p>
                 <div class="social-icons">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -698,7 +698,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; {{ date('Y') }} SmartGarden. Todos los derechos reservados.</p>
+            <p>&copy; {{ date('Y') }} GrowWise. Todos los derechos reservados.</p>
         </div>
     </div>
 </footer>

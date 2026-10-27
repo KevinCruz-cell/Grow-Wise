@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monitoreo - SmartGarden</title>
+    <title>Monitoreo - GrowWise</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -599,7 +599,7 @@
     <!-- Sidebar -->
     <div class="sidebar" data-aos="fade-right" data-aos-duration="1000">
         <div class="sidebar-header">
-            <h3><i class="fas fa-seedling"></i> SmartGarden</h3>
+            <h3><i class="fas fa-seedling"></i> GrowWise</h3>
             <p>Gestión Inteligente</p>
         </div>
         <div class="sidebar-menu">
@@ -691,33 +691,6 @@
                 </div>
                 <div class="stat-icon">
                     <i class="fas fa-tint"></i>
-                </div>
-            </div>
-            <div class="stat-card" data-aos="fade-up" data-aos-delay="150">
-                <div class="stat-info">
-                    <h3>{{ $stats['luz']['valor'] ?? '4200' }} lux</h3>
-                    <p>Luz</p>
-                </div>
-                <div class="stat-icon">
-                    <i class="fas fa-sun"></i>
-                </div>
-            </div>
-            <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
-                <div class="stat-info">
-                    <h3>{{ $stats['ph']['valor'] ?? '7.2' }}</h3>
-                    <p>pH del suelo</p>
-                </div>
-                <div class="stat-icon">
-                    <i class="fas fa-flask"></i>
-                </div>
-            </div>
-            <div class="stat-card" data-aos="fade-up" data-aos-delay="250">
-                <div class="stat-info">
-                    <h3>{{ $stats['nutrientes']['valor'] ?? '1200' }} ppm</h3>
-                    <p>Nutrientes</p>
-                </div>
-                <div class="stat-icon">
-                    <i class="fas fa-leaf"></i>
                 </div>
             </div>
         </div>
