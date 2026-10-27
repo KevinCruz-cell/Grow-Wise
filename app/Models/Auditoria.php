@@ -25,7 +25,8 @@ class Auditoria extends Model
         'datos_anteriores',
         'datos_nuevos',
         'user_agent',
-        'user_id'
+        'user_id',
+        'fecha_cambio'
     ];
 
     protected $casts = [

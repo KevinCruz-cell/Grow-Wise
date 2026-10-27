@@ -65,10 +65,20 @@ class AuditoriaController extends Controller
             'tabla_afectada' => $log->tabla_afectada,
             'accion' => $log->accion,
             'registro_id' => $log->registro_id,
-            'datos_anteriores' => json_decode($log->datos_anteriores, true),
-            'datos_nuevos' => json_decode($log->datos_nuevos, true),
+            'datos_anteriores' => $this->decodificarDatos($log->datos_anteriores),
+            'datos_nuevos' => $this->decodificarDatos($log->datos_nuevos),
             'user_agent' => $log->user_agent ?? null,
             'fecha_cambio' => $log->fecha_cambio ? date('d/m/Y H:i:s', strtotime($log->fecha_cambio)) : null
         ]);
+    }
+
+    // Los registros guardados por el observer quedan codificados dos veces (json_encode + cast array)
+    private function decodificarDatos($valor)
+    {
+        $datos = json_decode($valor ?? '', true);
+        if (is_string($datos)) {
+            $datos = json_decode($datos, true);
+        }
+        return $datos;
     }
 }

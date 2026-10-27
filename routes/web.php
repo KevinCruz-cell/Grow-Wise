@@ -27,7 +27,7 @@ Route::get('/', function () {
 
 Route::get('/prueba', function () {
     return view('prueba');
-})->name('home');
+})->name('prueba');
 
 
 // ===========================================
@@ -73,6 +73,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/alertas', [AlertaController::class, 'index'])->name('alertas.index');
     Route::post('/alertas/{alerta}/resolver', [AlertaController::class, 'resolver'])->name('alertas.resolver');
     Route::post('/alertas/marcar-todas', [AlertaController::class, 'marcarTodasComoLeidas'])->name('alertas.marcar-todas');
+    Route::delete('/alertas/{alerta}', [AlertaController::class, 'destroy'])->name('alertas.destroy');
 
     // Módulo: Reportes
     Route::get('/reportes', [ReporteController::class, 'index'])->name('reportes.index');
