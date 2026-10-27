@@ -693,7 +693,7 @@
                 <ul class="list-unstyled">
                     <li><i class="fas fa-map-marker-alt me-2"></i> Av. Tecnología 123, Ciudad</li>
                     <li><i class="fas fa-phone me-2"></i> +123 456 7890</li>
-                    <li><i class="fas fa-envelope me-2"></i> info@smartgarden.com</li>
+                    <li><i class="fas fa-envelope me-2"></i> info@growwise.com</li>
                 </ul>
             </div>
         </div>
